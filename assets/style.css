@@ -94,6 +94,10 @@ h3 {
 	font-size: 1rem;
 }
 
+h5 {
+	font-size: 2.5rem;
+}
+
 #gallery {
 	/*	min-height: 100vh; */
 }
@@ -105,9 +109,14 @@ h3 {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+		color: #fff;
+		background-color: #625428;
+		border-radius:0 ;
+}
+
+.active-tag {
+	background-color: #625428;
 	color: #fff;
-	background-color: #BEB45A;
-	border-radius:0 ;
 }
 .nav-pills .nav-link {
 	color: #000
