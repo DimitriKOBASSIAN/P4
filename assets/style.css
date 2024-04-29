@@ -50,6 +50,10 @@ body {
 	position: relative;
 }
 
+.about-me__introduction {
+	font-size: 1rem;
+}
+
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
