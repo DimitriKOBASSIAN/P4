@@ -117,6 +117,7 @@
       $(`#${lightboxId}`)
         .find(".lightboxImage")
         .attr("src", element.attr("src"));
+      
       $(`#${lightboxId}`).modal("toggle");
     },
     prevImage() {
@@ -240,7 +241,7 @@
         return;
       }
       $(".active-tag").removeClass("active active-tag");
-      $(this).addClass("active active-tag");
+      $(this).addClass("active active-tag"); // add active class to the clicked tag
 
       var tag = $(this).data("images-toggle");
 

@@ -90,13 +90,6 @@ body {
 	font-size: 14px;
 }
 
-h3 {
-	font-size: 1rem;
-}
-
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -199,6 +192,16 @@ h3 {
 	flex-direction: column;
 	justify-content: space-between;
 	z-index: 1;
+}
+
+.price-tag {
+	font-size: 1.5rem;
+	margin-bottom: 8px;
+}
+
+.service-title {
+	font-size: 1.5rem;
+	font-weight: 800;
 }
 
 #contact {
